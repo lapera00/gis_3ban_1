@@ -26,7 +26,7 @@ class AccountCreateView(CreateView):
 class AccountDetailView(DetailView, MultipleObjectMixin):
     model = User
     context_object_name = 'target_user'
-    template_name = 'articleapp:list'
+    template_name = 'accountapp/detail.html'
 
     paginate_by = 20
 
