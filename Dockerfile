@@ -2,7 +2,7 @@ FROM python:3.9.0
 
 WORKDIR /home/
 
-RUN echo "dkanrjsk3"
+RUN echo "dkanrjsk5"
 
 RUN git clone https://github.com/lapera00/gis_3ban_1.git
 
